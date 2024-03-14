@@ -1,0 +1,138 @@
+.hero{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.hero__img {
+    display: inline;
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+}
+
+.hero__subtitle {
+    color: var(--clr-slate800);
+    font-size: var(--size-base);
+    line-height: 0.9;
+}
+
+.hero__title {
+    color: var(--clr-slate400);
+    text-transform: uppercase;
+    font-size: var(--size-4x1);
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+}
+.hero__description{
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+}
+
+.hero__btn {
+    text-transform: capitalize;
+    font-size: var(--size-sm);
+    color: #fff;
+}
+
+
+@media (min-width: 475px) {
+    .hero{
+    gap: 1.5rem;
+}
+
+.hero__img {
+    width: 6.5rem;
+    height: 6.5rem;
+}
+
+.hero__subtitle {
+    font-size: var(--size-lg);
+}
+
+.hero__title {
+    font-size: var(--size-5x1);
+    text-transform: uppercase;
+    font-size: var(--size-4x1);
+    letter-spacing: -0.05em;
+    line-height: 0.9;
+}
+.hero__description{
+    max-width: 60ch;
+    font-size: var(--size-sm);
+    color: var(--clr-slate600);
+}
+
+.hero__btn {
+    text-transform: capitalize;
+    font-size: var(--size-sm);
+}
+}
+
+
+/* xs */
+/* @media (min-width: 640px) {} */
+
+
+/* xs */
+/* @media (min-width: 768px) {} */
+
+
+/* xs */
+@media (min-width: 1024px) {
+.hero__img {
+    width: 8rem;
+    height: 8rem;
+}
+
+.hero__subtitle {
+    font-size: var(--size-2x1);
+}
+
+.hero__title {
+    font-size: var(--size-7x1);
+}
+.hero__description{
+    font-size: var(--size-xl);
+}
+
+.hero__btn {
+    font-size: var(--size-xl);
+}
+}
+
+
+/* xs */
+ @media (min-width: 1280px) {
+.hero {
+    gap: 2rem;
+}
+    
+    .hero__img {
+    width: 10rem;
+    height: 10rem;
+}
+
+.hero__subtitle {
+    font-size: var(--size-4x1);
+}
+
+.hero__title {
+    font-size: var(--size-8x1);
+}
+.hero__description{
+    font-size: var(--size-lg);
+}
+
+.hero__btn {
+    font-size: var(--size-lg);
+}
+ } 
+
+
+/* @media (min-width: 475px) {}*/
